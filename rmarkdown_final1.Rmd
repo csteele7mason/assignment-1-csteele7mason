@@ -1,0 +1,66 @@
+---
+title: "Assignment 1: R Markdown practice"
+author: "Colby Steele"
+date: "`r Sys.Date()`"
+documentclass: article
+geometry: margin=1in
+fontsize: 11pt
+output:
+  pdf_document:
+    toc: false
+    df_print: kable
+    fig_caption: false
+    number_sections: true
+    dev: pdf
+    highlight: tango
+  html_document:
+    theme: paper
+    self_contained: true
+    toc: false
+    df_print: kable
+    fig_caption: false
+    number_sections: true
+    smart: true
+    dev: svg
+---
+
+<!-- Write your Markdown below this line -->
+
+##Classroom
+  
+**Online**   
+  
+##Objectives  
+By the end of this course, students will be able to:  
+
+ * Use Github for collaborating on a reproductible research document
+ 
+  + Obtain, clean, transform, and visualize a dataset using the R programming language
+  
+  + Interpret and predict dataset trends using statistical inference and models
+  
+  + Critically examine and interpret statistical claims reported in mass media
+  
+##Textbooks  
+###Introduction to Data Science: Data Analysis and Prediction Algorithms with R  
+
+*Rafael A.Irizarry*  
+
+This book introduces concepts and skills that can help you tackle real-world data analysis challenges.  
+  
+This book is freely available at https://rafalab.github.io/dsbook/.  
+
+###R for Data Science: Import, Tidy, Transform, Visualize, and Model Data  
+*Hadley Wickham and Garrett Grolemund*  
+
+This book will teach you how to do data science with R. You'll learn how to get your data into R, change its structure, transform it, visualize it, and model it.  
+
+This book is freely available at this link.  
+
+##R code chunk  
+```{r}
+2 + 2
+```
+
+
+
